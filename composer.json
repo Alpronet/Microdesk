@@ -1,0 +1,16 @@
+{
+    "name": "vendor/microdesk",
+    "description": "Descrição do projeto microdesk.",
+    "authors": [
+        {
+            "name": "Alpronet",
+            "email": "adm@alpronet.com.br"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.0",
+        "Guzzlehttp/Guzzle": "*",
+        "phpmailer/phpmailer": "5.2.22",
+        "rain/raintpl": "3.0.0"
+    }
+}
