@@ -1,2 +1,2 @@
 # Microdesk
-Loja virtual desenvolvida para microdesk
+Emissor de nota Fiscal microdesk
