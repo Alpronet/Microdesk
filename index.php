@@ -1,15 +1,14 @@
 <?php
 
-require_once("vendor/autoload.php");
+include 'Conn/virg.php' ;
 
-$app = new \Slim\Slim();
-
-$app->config('debug', true);
-
-$app->get('/', function() {
+spl_autoload_register(function ($filename){
     
-	echo "OK";
-
+    $filename =$filename."php";
+    
+    if(file_exists($filename)){
+        echo $filename;
+        require_once $filename;
+    }
+    
 });
-
-$app->run();
