@@ -1,16 +1,19 @@
 {
-    "name": "vendor/microdesk",
-    "description": "Descrição do projeto microdesk.",
+    "name": "hcodebr/ecommerce",
     "authors": [
         {
-            "name": "Alpronet",
-            "email": "adm@alpronet.com.br"
+            "name": "Hcode Treinamentos",
+            "email": "suporte@hcode.com.br"
         }
     ],
     "require": {
-        "slim/slim": "2.0",
-        "Guzzlehttp/Guzzle": "*",
-        "phpmailer/phpmailer": "5.2.22",
-        "rain/raintpl": "3.0.0"
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
+        }
     }
 }
